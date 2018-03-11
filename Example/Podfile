@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ScreenOrientationManager_Example' do
+  pod 'ScreenOrientationManager', :path => '../'
+
+  target 'ScreenOrientationManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
