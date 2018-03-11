@@ -1,0 +1,6 @@
+framework module ScreenOrientationManager {
+  umbrella header "ScreenOrientationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

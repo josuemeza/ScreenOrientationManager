@@ -1,0 +1,22 @@
+{
+  "name": "ScreenOrientationManager",
+  "version": "0.1.0",
+  "summary": "Manager for iOS device screen orientation.",
+  "description": "Manager to set up behavior of screen orientation in running app, allowing to set a specific orientation or autorotation.",
+  "homepage": "https://github.com/josuemeza/ScreenOrientationManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Josue Meza Peña": "contacto@josuemeza.com"
+  },
+  "source": {
+    "git": "https://github.com/josuemeza/ScreenOrientationManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ScreenOrientationManager/Classes/**/*"
+}

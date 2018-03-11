@@ -7,8 +7,30 @@
 //
 
 import UIKit
+import ScreenOrientationManager
 
 class ViewController: UIViewController {
+    
+    // MARK: - Attributes
+    
+    private var autorotation: Bool = false
+    
+    // MARK: - Actions
+    
+    @IBAction func toggleAutorotation(_ sender: Any) {
+        self.autorotation = !self.autorotation
+        let button = sender as! UIButton
+        if self.autorotation {
+            ScreenOrientationManager.singleton.orientation(.all, .portrait)
+            debugPrint(ScreenOrientationManager.singleton.orientation == .landscape)
+            button.setTitle("Start autorotation", for: .normal)
+        } else {
+            debugPrint(ScreenOrientationManager.singleton.orientation == .landscape)
+            button.setTitle("End autorotation", for: .normal)
+        }
+    }
+    
+    // MARK: - View controller methods
 
     override func viewDidLoad() {
         super.viewDidLoad()
