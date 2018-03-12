@@ -2,6 +2,7 @@
   "name": "ScreenOrientationManager",
   "version": "0.1.0",
   "summary": "Manager for iOS device screen orientation.",
+  "swift_version": "3.2",
   "description": "Manager to set up behavior of screen orientation in running app, allowing to set a specific orientation or autorotation.",
   "homepage": "https://github.com/josuemeza/ScreenOrientationManager",
   "license": {

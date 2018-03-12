@@ -21,7 +21,7 @@ public protocol ScreenRotationDelegate {
      
      - Parameter orientation: New device orientation in UIInterfaceOrientationMask struct.
      */
-    func rotatedTo(_ orientation: UIInterfaceOrientationMask)
+    func rotatedTo(_ orientation: UIDeviceOrientation)
     
 }
 
@@ -65,9 +65,11 @@ public class ScreenOrientationManager {
      - Parameter orientation: Orientation rule to set.
      - Parameter andRotateTo: Orientation to inmediatly set.
      */
-    public func orientation(_ orientation: UIInterfaceOrientationMask, andRotateTo rotateOrientation:UIInterfaceOrientation) {
+    public func orientation(_ orientation: UIInterfaceOrientationMask, andRotateTo rotateOrientation: UIInterfaceOrientation? = nil) {
         self.orientation = orientation
-        UIDevice.current.setValue(rotateOrientation.rawValue, forKey: "orientation")
+        if let rotateOrientation = rotateOrientation {
+            UIDevice.current.setValue(rotateOrientation.rawValue, forKey: "orientation")
+        }
     }
     
     /**
@@ -79,12 +81,7 @@ public class ScreenOrientationManager {
      */
     @objc func rotationObserver(_ notification: Notification) {
         if let delegate = self.rotationDelegate {
-            if UIDeviceOrientationIsLandscape(UIDevice.current.orientation) {
-                delegate.rotatedTo(.landscape)
-            }
-            if UIDeviceOrientationIsPortrait(UIDevice.current.orientation) {
-                delegate.rotatedTo(.portrait)
-            }
+            self.rotationDelegate?.rotatedTo(UIDevice.current.orientation)
         }
     }
     
@@ -93,7 +90,7 @@ public class ScreenOrientationManager {
      
      Init notification observer for device rotation.
      */
-    func initRotationObserver() {
+    public func initRotationObserver() {
         NotificationCenter.default.addObserver(self, selector: #selector(rotationObserver(_:)), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
     }
     
@@ -102,7 +99,7 @@ public class ScreenOrientationManager {
      
      End notification observer for device rotation.
      */
-    func endRotationObserver() {
+    public func endRotationObserver() {
         NotificationCenter.default.removeObserver(self)
     }
     

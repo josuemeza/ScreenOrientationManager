@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ScreenOrientationManager: 431d248ee98eb6de1ce6d16a7de205b975a65c08
+  ScreenOrientationManager: 6b5c07ce99a5c3bab2b03619d91ddcea74cfe447
 
 PODFILE CHECKSUM: 25690a45f254dfa658dde2a93b84d91b7727478a
 
