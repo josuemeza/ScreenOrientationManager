@@ -80,9 +80,7 @@ public class ScreenOrientationManager {
      - Parameter notification: NotificationCenter values.
      */
     @objc func rotationObserver(_ notification: Notification) {
-        if let delegate = self.rotationDelegate {
-            self.rotationDelegate?.rotatedTo(UIDevice.current.orientation)
-        }
+        self.rotationDelegate?.rotatedTo(UIDevice.current.orientation)
     }
     
     /**
