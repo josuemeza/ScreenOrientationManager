@@ -103,12 +103,3 @@ public class ScreenOrientationManager {
     
 }
 
-//extension AppDelegate {
-//
-//    /// :nodoc:
-//    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
-//        return ScreenOrientationManager.singleton.orientation
-//    }
-//
-//}
-
