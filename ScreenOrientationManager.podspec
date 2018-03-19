@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                    = 'ScreenOrientationManager'
-  s.version                 = '1.0.0'
+  s.version                 = '1.0.1'
   s.summary                 = 'Manager for iOS device screen orientation.'
   s.swift_version           = '3.2'
   s.description             = 'Manager to set up behavior of screen orientation on running app, allowing to set a specific orientation or autorotation.'
