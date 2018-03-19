@@ -7,25 +7,20 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ScreenOrientationManager'
-  s.version          = '1.0.0'
-  s.summary          = 'Manager for iOS device screen orientation.'
-  s.swift_version    = '3.2'
-
-  s.description      = <<-DESC
-Manager to set up behavior of screen orientation on running app, allowing to set a specific orientation or autorotation.
-                       DESC
-
-  s.homepage         = 'https://github.com/josuemeza/ScreenOrientationManager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Josue Meza Peña' => 'contacto@josuemeza.com' }
-  s.source           = { :git => 'https://github.com/josuemeza/ScreenOrientationManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'ScreenOrientationManager/Classes/**/*'
+  s.name                    = 'ScreenOrientationManager'
+  s.version                 = '1.0.0'
+  s.summary                 = 'Manager for iOS device screen orientation.'
+  s.swift_version           = '3.2'
+  s.description             = 'Manager to set up behavior of screen orientation on running app, allowing to set a specific orientation or autorotation.'
+  s.homepage                = 'https://github.com/josuemeza/ScreenOrientationManager'
+  s.license                 = { :type => 'MIT', :file => 'LICENSE' }
+  s.author                  = { 'Josue Meza Peña' => 'contacto@josuemeza.com' }
+  s.source                  = { :git => 'https://github.com/josuemeza/ScreenOrientationManager.git', :tag => s.version.to_s }
+  s.ios.deployment_target   = '10.0'
+  s.documentation_url       = 'http://josuemeza.com/pods/ScreenOrientationManager/'
+  s.source_files            = 'ScreenOrientationManager/Classes/**/*'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   # s.resource_bundles = {
   #   'ScreenOrientationManager' => ['ScreenOrientationManager/Assets/*.png']
