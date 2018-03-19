@@ -41,4 +41,4 @@ Josue Meza Peña, contacto@josuemeza.com
 
 ## License
 
-ScreenOrientationManager is available under the MIT license. See the LICENSE file for more info.
+ScreenOrientationManager is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
