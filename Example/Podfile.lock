@@ -1,16 +1,16 @@
 PODS:
-  - ScreenOrientationManager (0.1.0)
+  - ScreenOrientationManager (1.0.1)
 
 DEPENDENCIES:
   - ScreenOrientationManager (from `../`)
 
 EXTERNAL SOURCES:
   ScreenOrientationManager:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ScreenOrientationManager: 6b5c07ce99a5c3bab2b03619d91ddcea74cfe447
+  ScreenOrientationManager: 1095aaf3eed044af85add8b5907b81a27bf2cb58
 
 PODFILE CHECKSUM: 25690a45f254dfa658dde2a93b84d91b7727478a
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
