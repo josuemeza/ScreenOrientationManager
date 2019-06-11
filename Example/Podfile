@@ -1,11 +1,13 @@
 use_frameworks!
 
-target 'ScreenOrientationManager_Example' do
+def default_pods
   pod 'ScreenOrientationManager', :path => '../'
+end
 
-  target 'ScreenOrientationManager_Tests' do
-    inherit! :search_paths
+target 'ScreenOrientationManager_Example' do
+  default_pods
+end
 
-    
-  end
+target 'ScreenOrientationManager_Tests' do
+  default_pods
 end

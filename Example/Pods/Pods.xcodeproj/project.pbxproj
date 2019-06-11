@@ -40,26 +40,26 @@
 		0611D9C8C652EB20E226E799FC1D57B3 /* Pods-ScreenOrientationManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenOrientationManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		0AC4DE826644C59587C665498278777E /* Pods-ScreenOrientationManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenOrientationManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		0B0F47BCDC1969B80716DA3F03C05FA9 /* Pods-ScreenOrientationManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenOrientationManager_Example.modulemap"; sourceTree = "<group>"; };
-		0EE75839C25D615FED5B74E074AA788E /* ScreenOrientationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScreenOrientationManager.framework; path = ScreenOrientationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE75839C25D615FED5B74E074AA788E /* ScreenOrientationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScreenOrientationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11881C05E3769E8BBC5B63EFF136028D /* Pods-ScreenOrientationManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenOrientationManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		14E22BD0145A3DDF9B949E7686F340AC /* Pods-ScreenOrientationManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenOrientationManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3139B36DEF8BC27A04E64F98E9FBA0FC /* Pods-ScreenOrientationManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenOrientationManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		42F5E1D1F77731B5699C23FBCE2CB71A /* Pods-ScreenOrientationManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenOrientationManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		530A6EBE7E8FC77D109EDC96F5803671 /* Pods-ScreenOrientationManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenOrientationManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		5E2FBF570A0F1AFD3DD0A1E56AD9F7D3 /* Pods_ScreenOrientationManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScreenOrientationManager_Example.framework; path = "Pods-ScreenOrientationManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2FBF570A0F1AFD3DD0A1E56AD9F7D3 /* Pods_ScreenOrientationManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenOrientationManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A8F78F3CDF7A11AEA64789CB3F6DF2 /* ScreenOrientationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenOrientationManager-prefix.pch"; sourceTree = "<group>"; };
 		63A1454FAAD53C35E2CCAD632F01FC25 /* ScreenOrientationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenOrientationManager.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E843334EEBA484AF0D20D76885D4DA8 /* Pods-ScreenOrientationManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenOrientationManager_Example-dummy.m"; sourceTree = "<group>"; };
 		89E29454BF8853CAD58D3139C19B87BF /* ScreenOrientationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenOrientationManager.swift; path = ScreenOrientationManager/Classes/ScreenOrientationManager.swift; sourceTree = "<group>"; };
 		8BC85502007791A075918FD3F37CE440 /* Pods-ScreenOrientationManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenOrientationManager_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98E60F7B4CE77D42D24C52CF09C5849F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5101F0A8358DC26D14681B510F90468 /* Pods-ScreenOrientationManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenOrientationManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A72D31C80F0FC84DF52AB403C34C3D59 /* Pods_ScreenOrientationManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScreenOrientationManager_Tests.framework; path = "Pods-ScreenOrientationManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72D31C80F0FC84DF52AB403C34C3D59 /* Pods_ScreenOrientationManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenOrientationManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B264828E315502B580FDB60A60992E7F /* ScreenOrientationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenOrientationManager-umbrella.h"; sourceTree = "<group>"; };
 		B37AF44A2FE2A0524BC1EE8162C35211 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCCEF803D8AD04585EA29EF0E667C799 /* ScreenOrientationManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ScreenOrientationManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCCEF803D8AD04585EA29EF0E667C799 /* ScreenOrientationManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ScreenOrientationManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C8950FFE232DA4D2527F1BD1344B4BE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF468A9A238AD56D73B79BD3D79C80C4 /* Pods-ScreenOrientationManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenOrientationManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D677EFE44A50D93ADB2D95FCBB599C4B /* ScreenOrientationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScreenOrientationManager-dummy.m"; sourceTree = "<group>"; };
@@ -67,11 +67,11 @@
 		DF14146F2D95F7AB8D6BE600C98714E8 /* Pods-ScreenOrientationManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenOrientationManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DF86786096C05C07C10335737E5B0591 /* Pods-ScreenOrientationManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenOrientationManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E1E149AF29EB057E2CD573EB75E75FF5 /* Pods-ScreenOrientationManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenOrientationManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED0641833BDCE57B7082D56FCA548C60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ED0641833BDCE57B7082D56FCA548C60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ED96C75C1C0C2C96CB7A9A2E3D4A9F64 /* Pods-ScreenOrientationManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenOrientationManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F35BCB7427FF0217732453884CBD48AB /* ScreenOrientationManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScreenOrientationManager.modulemap; sourceTree = "<group>"; };
 		F905D4EEC081563AD15D8C023C568870 /* Pods-ScreenOrientationManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenOrientationManager_Tests.modulemap"; sourceTree = "<group>"; };
-		FB99E83AA84FC588CF563C5F2087BC13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FB99E83AA84FC588CF563C5F2087BC13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,6 +324,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -480,7 +481,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -704,7 +705,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
