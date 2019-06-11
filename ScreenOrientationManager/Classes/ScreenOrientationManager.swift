@@ -89,7 +89,7 @@ public class ScreenOrientationManager {
      Init notification observer for device rotation.
      */
     public func initRotationObserver() {
-        NotificationCenter.default.addObserver(self, selector: #selector(rotationObserver(_:)), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(rotationObserver(_:)), name: UIDevice.orientationDidChangeNotification, object: nil)
     }
     
     /**
